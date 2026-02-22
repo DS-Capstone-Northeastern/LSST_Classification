@@ -15,7 +15,7 @@ This folder contains the foundational research guiding our modeling decisions. I
 
 ### 2. The Shared Pipeline (`/00_Shared_Pipeline/` & `/data_splits/`)
 To ensure all models are trained on the exact same universe and evaluated fairly, the starting and finishing lines are strictly standardized.
-* **Exploratory Data Analysis (`00_data_exploration_EDA.ipynb`):** Global analysis of the 3.5M object universe, confirming dataset alignment, intermittency ($\Delta t$), and extreme class imbalance.
+* **Exploratory Data Analysis (`00_data_exploration_EDA.ipynb`):** Global analysis of the 3.5M object universe, confirming dataset alignment, intermittency ($\Delta t$), and  class imbalance.
 * **Data Stratification (`01_stratified_data_split.ipynb`):** The logic used to extract a statistically representative sample of the universe for deep learning.
 * **The "Source of Truth" (`/data_splits/`):** Contains `train_ids.csv` (100k objects), `val_ids.csv` (15k objects), and `test_ids.csv`. **All individual models must load these exact IDs.**
 * **The Finish Line (`metrics.py`):** The shared scoring script containing custom mathematical implementations for Weighted Log-Loss (Kaggle standard), Macro F1, Macro PR-AUC, and the Brier Score. 
