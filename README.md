@@ -52,7 +52,7 @@ Because the raw unblinded dataset exceeds 22 GB, local training is not practical
 To prevent merge conflicts and protect the integrity of the shared pipeline, we adhere to a strict branching workflow:
 * **`main` Branch:** The production-ready branch. Code here must be error-free and fully executed.
 * **`dev` Branch:** The active integration branch. All feature branches merge here first.
-* **Your Workflow:** 1. Pull the latest `dev` branch (`git pull origin dev`).
+* **The Workflow:** 1. Pull the latest `dev` branch (`git pull origin dev`).
   2. Create a new branch for your specific task (`git checkout -b feature/tft-dataloader`).
   3. Commit your changes locally.
   4. Push to your feature branch and open a Pull Request into `dev` for team review.
