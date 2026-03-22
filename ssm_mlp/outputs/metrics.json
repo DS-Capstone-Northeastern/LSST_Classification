@@ -1,0 +1,36 @@
+{
+  "mlp_oof_logloss": 1.3394098532149568,
+  "mlp_oof_plasticc_weighted_logloss": 0.14460350576614797,
+  "hybrid_oof_logloss": 0.955974850443653,
+  "hybrid_oof_plasticc_weighted_logloss": 0.10496970035594629,
+  "hybrid_oof_macro_f1": 0.6946611334496774,
+  "hybrid_oof_macro_pr_auc": 0.7488773937571256,
+  "hybrid_oof_multiclass_brier": 0.3585174085155031,
+  "n_train": 7848,
+  "n_test": 3492890,
+  "hybrid_dim": 152,
+  "num_classes": 14,
+  "class_labels": [
+    6,
+    15,
+    16,
+    42,
+    52,
+    53,
+    62,
+    64,
+    65,
+    67,
+    88,
+    90,
+    92,
+    95
+  ],
+  "exclude_leakage_features": true,
+  "test_eval_rows": 0,
+  "test_metrics_skipped": true,
+  "test_metrics_skip_reason": "No overlap between train classes and test labels.",
+  "test_unique_labels_sample": [
+    0
+  ]
+}
