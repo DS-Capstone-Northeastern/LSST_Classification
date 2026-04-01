@@ -34,8 +34,8 @@ The project is split into three independent environments:
 
 ### 4. Project Management
 * `project_tracker.xlsx`: The central ledger for task delegation, phase deadlines, and milestone tracking.
-* `Final_Project_Report.pdf`: The academic write-up and architectural comparison.
-* `requirements.txt`: The required Python environments and library versions for reproducibility.
+* `Capstone_Project_Report.pdf`: The academic write-up and architectural comparison.
+* 'Metrics_visuals.ipynb': A dedicated notebook containing interactive visualizations and charts comparing our final model evaluations against the Kaggle baselines.
 
 ---
 
