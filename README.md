@@ -34,7 +34,7 @@ The project is split into three independent environments:
 
 ### 4. Project Management
 * `project_tracker.xlsx`: The central ledger for task delegation, phase deadlines, and milestone tracking.
-* `Capstone_Project_Report.pdf`: The academic write-up and architectural comparison.
+* `Capstone report.pdf`: The academic write-up and architectural comparison.
 * 'Metrics_visuals.ipynb': A dedicated notebook containing interactive visualizations and charts comparing our final model evaluations against the Kaggle baselines.
 
 ---
